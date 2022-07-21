@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355540031903",
+    "project_id": "fitneticfirebase",
+    "storage_bucket": "fitneticfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355540031903:android:0f26577e5964f4865985aa",
+        "android_client_info": {
+          "package_name": "com.example.fitnetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355540031903-m021fdgkd80toti589cdv7nb0uvl1t6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvjAdQbPP1XQW21NVS5iiMFIdOlK0uT2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355540031903-m021fdgkd80toti589cdv7nb0uvl1t6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

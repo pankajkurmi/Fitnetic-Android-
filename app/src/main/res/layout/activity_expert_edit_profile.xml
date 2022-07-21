@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ExpertEditProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:text="Update Profile"
+                android:gravity="center"
+                android:fontFamily="@font/aladin"
+                android:textColor="@color/black"
+                android:textSize="45dp"/>
+
+
+            <ImageView
+                android:id="@+id/EdprofileImage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/editprofileimg" />
+
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/adamina"
+                android:hint="Full Name"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:textColorHint="@color/black"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/edphone"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:textColorHint="@color/black"
+                android:hint="Contact Number"
+                android:layout_height="50dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+
+            <EditText
+                android:id="@+id/edemail"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Email Id"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+
+            <EditText
+                android:id="@+id/edexperience"
+                android:textColorHint="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Experience"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/edlocation"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/black"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:hint="Loctaion"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+
+            <EditText
+                android:id="@+id/edqualification"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/black"
+                android:layout_height="50dp"
+                android:hint="Qualification"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/edtime"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/black"
+                android:layout_height="50dp"
+                android:hint="Preferable Time"
+                android:layout_marginLeft="10dp"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/edfees"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/black"
+                android:layout_marginLeft="10dp"
+                android:hint="Fees"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="@font/adamina"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/edSave"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/border"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

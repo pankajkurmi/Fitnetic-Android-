@@ -1,0 +1,29 @@
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        maven {
+            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
+        }
+        mavenCentral()
+        repositories {
+            mavenCentral()
+            flatDir{
+                dirs 'libs'
+            }
+        }
+        jcenter() // Warning: this repository is going to shut down soon
+
+
+    }
+}
+rootProject.name = "Fitnetic"
+include ':app'

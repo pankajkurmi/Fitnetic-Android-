@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/x_imagebtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExpertRegisterUser">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="60dp">
+
+            <TextView
+                android:id="@+id/X_Register_detail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/enter_details"
+                android:textColor="@color/black"
+                android:textSize="34sp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/X_Register_Name"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:hint="@string/enter_name"
+                android:inputType="textPersonName"
+                android:textColor="#070707"
+                android:textColorHighlight="#101010"
+                android:textColorHint="#0E0D0D"
+                android:textColorLink="#090808"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/X_Register_PhoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:hint="Phone "
+                android:inputType="phone"
+                android:textColor="#0C0A0A"
+                android:textColorHighlight="#121010"
+                android:textColorHint="#100E0E"
+                android:textColorLink="#100F0F"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/X_Register_Email"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#090808"
+                android:textColorHighlight="#0C0B0B"
+                android:textColorHint="#0E0C0C"
+                android:textColorLink="#0E0D0D"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/X_Register_Gendertext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="Gender"
+                android:textColor="#090808"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:id="@+id/X_Register_Gender"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@color/blue"
+                android:layout_marginTop="10dp">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/X_Register_DOB"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:hint="Date Of Birth DD/MM/YYYY"
+                android:inputType="date"
+                android:textColor="#0B0A0A"
+                android:textColorHighlight="#090808"
+                android:textColorHint="#0C0A0A"
+                android:textColorLink="#090808"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/adamina"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/X_Password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:hint="Enter Password"
+                android:gravity="center"
+                android:background="@drawable/border"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="Category"
+                android:textColor="@color/black"
+                android:textColorHighlight="#0B0808"
+                android:textColorLink="#100E0E"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+
+            <Spinner
+                android:id="@+id/X_Register2_Category"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@color/blue"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="Experience"
+                android:textColor="#100F0F"
+                android:textColorHighlight="#151414"
+                android:textColorLink="#0C0B0B"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/X_Register2_Exp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:inputType="number"
+                android:textColor="#151414"
+                android:textColorHighlight="#120E0E"
+                android:textColorHint="#100E0E"
+                android:textColorLink="#130F0F"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:hint="Experience"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:fontFamily="@font/adamina"
+                android:text="Location"
+                android:textColor="#100E0E"
+                android:textColorHighlight="#040303"
+                android:textColorHint="#100F0F"
+                android:textColorLink="#100F0F"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/X_Register2_Location"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:inputType="textPostalAddress"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#020202"
+                android:textColorLink="#000000"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:hint="Location"/>
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="Higher Qualificaion"
+                android:textColor="#100F0F"
+                android:textColorHighlight="#131313"
+                android:textColorHint="#121010"
+                android:textColorLink="#100F0F"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/X_Register2_higher"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:inputType="textPersonName"
+                android:textColor="#0C0C0C"
+                android:textColorHighlight="#171515"
+                android:textColorHint="#121010"
+                android:textColorLink="#151414"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:hint="Higher Qualification"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="Preferable Time"
+                android:textColor="#100F0F"
+                android:textColorHighlight="#131313"
+                android:textColorHint="#121010"
+                android:textColorLink="#100F0F"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/X_Time"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="@font/adamina"
+                android:hint="7AM - 10PM"
+                android:inputType="textPersonName"
+                android:textColor="#0C0C0C"
+                android:textColorHighlight="#171515"
+                android:textColorHint="#121010"
+                android:textColorLink="#151414"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/adamina"
+                android:text="Fees"
+                android:textColor="#100F0F"
+                android:textColorHighlight="#131313"
+                android:textColorHint="#121010"
+                android:textColorLink="#100F0F"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/X_Fees_"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:inputType="textPersonName"
+                android:textColor="#0C0C0C"
+                android:textColorHighlight="#171515"
+                android:textColorHint="#121010"
+                android:textColorLink="#151414"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border"
+                android:gravity="center"
+                android:hint="Fees"/>
+
+
+            <Button
+                android:id="@+id/X_Submit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/blue"
+                android:text="Submit"
+                android:layout_marginTop="30sp"
+                android:fontFamily="@font/adamina"
+                android:background="@drawable/border"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

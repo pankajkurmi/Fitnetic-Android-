@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fitnetic</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="create_account">Create Account?</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_name">Enter Name</string>
+    <string-array name="Category">
+        <item>Trainer</item>
+        <item>Nutritionist</item>
+        <item>Dietitian</item>
+    </string-array>
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
